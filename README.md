@@ -12,12 +12,10 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 #### Repo Status
 `$ git status` - Check the status of your current repository and see which files have changed.
 
-`$ git diff` - __Fill Me Out__
+`$ git diff` - it compares two files and outputs the difference between them
 
 #### Repo History
-`$ git log` - __Fill Me Out__
-
-`$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
+`$ git log` - it displays the logs of your commits with each commit ID, auther, date and message.
 
 `$ git log -p [filename]` Logs what happens in between commits
 
@@ -30,12 +28,12 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git commit -m "<commit message>"` - Adds the staged file to the repository with a message describing the changes
 
 #### Branching
-`$ git branch <branch name>` - __Fill Me Out__
+`$ git branch <branch name>` - Creates a new local branch.
 
-`$ git branch` - __Fill Me Out__
+`$ git branch` - Shows the branches.
 
-`$ git checkout <branch name>` - __Fill Me Out__
+`$ git checkout <branch name>` - Switches to this branch.
 
 #### Merging
 
-`$ git merge <branch name>` - __Fill Me Out__
+`$ git merge <branch name>` - Merges this branch with the master
