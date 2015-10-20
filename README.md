@@ -27,7 +27,7 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git add -A` - Stages the current directory to be added to the repository
 
 #### Commit changes in staged files
-`$ git commit -m "<commit message>"` - Adds the staged file to the repository with a message describing the changes/what is being added
+`$ git commit -m "<commit message>"` - Adds the staged file to the repository with a message describing the changes
 
 #### Branching
 `$ git branch <branch name>` - __Fill Me Out__
